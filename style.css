@@ -91,6 +91,7 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2em;
+    text-align: center;
 }
 footer{
     background-color: black;
@@ -101,6 +102,9 @@ footer{
 span{
     font-size: 1em;
 
+}
+.bloc{
+    padding: 20px;
 }
 @media screen and (min-width: 900px){
     .headerDesktop{
