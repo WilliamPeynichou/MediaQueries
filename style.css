@@ -43,7 +43,7 @@ button{
     list-style-type: none;
     gap: 2em;
 }
-main{
+.main{
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -63,15 +63,44 @@ main{
     flex-wrap: wrap;
     gap: 2em;
 }
-h2{
-    margin: 50px 0px 20px;
+.sectionH{
+    margin: 0px 0px 10px;
 }
-p{
+.sectionP1{
     padding: 0px 50px 0px 0px;
     font-size: 4em;
 }
-.welcom{
+
+.section2{
+    background-color: whitesmoke;
+}
+.service{
+    font-size: 3em;
+    text-align: center;
     padding: 50px;
+}
+.blocServ{
+    width: 100%;
+    height: 200px;
+    margin: 50px 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: rgb(210, 209, 209);
+    padding: 100px 0px;
+}
+span{
+    font-size: 1em;
+
 }
 @media screen and (min-width: 900px){
     .headerDesktop{
@@ -84,6 +113,30 @@ p{
      margin: 100px 200px;
      display: flex;
      justify-content: flex-start;
+     flex-wrap: wrap;
      gap: 2em;
     }
+    .blocList{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .blocServ{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blocServDesktop{
+        width: 30%;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+    span{
+        font-size: 0,5em;
+    }
+    
 }
